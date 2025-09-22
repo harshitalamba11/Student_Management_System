@@ -22,11 +22,11 @@ const Delete = () => {
     }
     return (
         <div>
-            <h2 className='font-bold text-2xl'>Delete Student</h2>
+            <h2 className='font-bold text-2xl m-4'>Delete Student</h2>
             <p>Are you sure you want to delete this student?</p>
-            <div className='flex space-x-4'>
+            <div className='flex space-x-4 m-3'>
                 <button onClick={handlesubmit} className='bg-red-500 text-white px-4 py-2 rounded'>Delete</button>
-                <Link to="/view"><button className='bg-gray-300 text-black px-4 py-2 rounded'>Cancel</button></Link>
+                <Link to="/view"><button className='bg-gray-300 text-black px-4 py-2 rounded font-serif'>Cancel</button></Link>
             </div>
         </div>
     )

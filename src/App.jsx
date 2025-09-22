@@ -7,10 +7,10 @@ import { Link, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App flex flex-col space-y-4 items-center p-4">
+    <div className="App flex flex-col space-y-4 items-center p-4 bg-slate-300 min-h-screen">
       <h1 className='font-bold text-3xl m-6 text-center'>Students Record</h1>
       
-      <div className='m-3 space-x-4'>
+      <div className='mb-5 space-x-4'>
         <Link to="/add"><button className='bg-blue-500 text-white px-4 py-2 rounded'>Add Student</button></Link>
         <Link to="/view"><button className='bg-green-500 text-white px-4 py-2 rounded'>View Students</button></Link>
       </div>

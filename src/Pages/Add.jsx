@@ -25,28 +25,28 @@ const Add = () => {
     }
   }
   return (
-    <div className='flex flex-col space-y-4 border border-gray-300 p-4 rounded w-1/3'>
-      <form >
+    <div className='flex flex-col space-y-4 border border-gray-400 p-4 rounded w-1/3'>
+      <form className='m-3 bg-slate-500'>
         <div className='m-2 p-2'>
-        <label  className='m-3 '>Name</label>
+        <label  className='m-3 text-xl font-semibold mr-3'>Name</label>
         <input className='border border-gray-200 p-1 rounded outline-none' type="text" placeholder='Enter the name' value={name} onChange={(e)=>{
           setname(e.target.value)
         }} required></input>
         </div>
         <div className='m-2 p-2'>
-        <label className='m-3'>Email</label>
+        <label className='m-3 text-xl font-semibold mr-3'>Email</label>
         <input className='border border-gray-200 p-1 rounded outline-none' type="email" placeholder='Enter the email' value={email} onChange={(e)=>{
           setemail(e.target.value)
         }} required></input>
         </div>
         <div className='m-2 p-2'>
-        <label className='m-3'>Age</label>
+        <label className='m-3 text-xl font-semibold mr-3'>Age</label>
         <input className='border border-gray-200 p-1 rounded outline-none' type="number" placeholder="Age" value={age} onChange={(e)=>{
           setage(e.target.value)
         }}></input>
         </div>
         <div className='m-2 p-2'>
-        <label className='m-3'>Percentage</label>
+        <label className='m-3 text-xl font-semibold mr-3'>Percentage</label>
         <input className='border border-gray-200 p-1 rounded outline-none' type="number" placeholder='Percentage' value={percentage} onChange={(e)=>{
           setpercentage(e.target.value)
         }} required></input>
